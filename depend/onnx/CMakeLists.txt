@@ -39,7 +39,7 @@ else() # Linux
   FetchContent_Declare(
     onnxruntime
     DOWNLOAD_EXTRACT_TIMESTAMP true
-    URL https://github.com/microsoft/onnxruntime/releases/download/v1.15.1/onnxruntime-linux-x64-gpu-1.15.1.tgz
+    URL https://github.com/microsoft/onnxruntime/releases/download/v1.20.1/onnxruntime-linux-x64-gpu-1.20.1.tgz
   )
   FetchContent_MakeAvailable(onnxruntime)
 
